@@ -3,22 +3,23 @@ using System.Timers;
 namespace mazeGame
 {
     public partial class Form1 : Form
+        
     {
+        System.Media.SoundPlayer StartUpSound = new System.Media.SoundPlayer(@"C:\Windows\Media\ding.wav");
+        System.Media.SoundPlayer WallSound = new System.Media.SoundPlayer(@"C:\Windows\Media\chord.wav");
+        System.Media.SoundPlayer FinshSound = new System.Media.SoundPlayer(@"C:\Windows\Media\chimes.wav");
         public Form1()
         {
             InitializeComponent();
+            StartUpSound.Play();
             move2Start();
-        }
-
-        private void label56_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void finshLable_MouseEnter(object sender, EventArgs e)
         {
             MessageBox.Show("yeeey, you won!!!", "YesS");
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(500);
+            FinshSound.Play();
             Close();
         }
 
@@ -29,6 +30,13 @@ namespace mazeGame
             startPoint.Offset(10, 10);
             Cursor.Position = PointToScreen(startPoint);
 
+        }
+
+        private void mouseEnterWall(object sender, EventArgs e)
+        {
+            WallSound.Play();
+            System.Threading.Thread.Sleep(1000);
+            move2Start();
         }
 
     }

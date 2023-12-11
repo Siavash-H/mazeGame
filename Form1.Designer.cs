@@ -85,14 +85,12 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            label56 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.Controls.Add(label56);
             panel1.Controls.Add(finshLable);
             panel1.Controls.Add(label55);
             panel1.Controls.Add(label54);
@@ -153,6 +151,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(606, 583);
             panel1.TabIndex = 0;
+            panel1.MouseEnter += mouseEnterWall;
             // 
             // finshLable
             // 
@@ -162,7 +161,6 @@
             finshLable.Size = new Size(40, 17);
             finshLable.TabIndex = 55;
             finshLable.Text = "Finish";
-            finshLable.Click += label56_Click;
             finshLable.MouseEnter += finshLable_MouseEnter;
             // 
             // label55
@@ -172,6 +170,7 @@
             label55.Name = "label55";
             label55.Size = new Size(23, 131);
             label55.TabIndex = 54;
+            label55.MouseEnter += mouseEnterWall;
             // 
             // label54
             // 
@@ -180,6 +179,7 @@
             label54.Name = "label54";
             label54.Size = new Size(76, 23);
             label54.TabIndex = 53;
+            label54.MouseEnter += mouseEnterWall;
             // 
             // label53
             // 
@@ -188,6 +188,7 @@
             label53.Name = "label53";
             label53.Size = new Size(23, 62);
             label53.TabIndex = 52;
+            label53.MouseEnter += mouseEnterWall;
             // 
             // label52
             // 
@@ -196,6 +197,7 @@
             label52.Name = "label52";
             label52.Size = new Size(77, 23);
             label52.TabIndex = 51;
+            label52.MouseEnter += mouseEnterWall;
             // 
             // label51
             // 
@@ -204,6 +206,7 @@
             label51.Name = "label51";
             label51.Size = new Size(100, 23);
             label51.TabIndex = 50;
+            label51.MouseEnter += mouseEnterWall;
             // 
             // label50
             // 
@@ -212,6 +215,7 @@
             label50.Name = "label50";
             label50.Size = new Size(100, 23);
             label50.TabIndex = 49;
+            label50.MouseEnter += mouseEnterWall;
             // 
             // label49
             // 
@@ -220,6 +224,7 @@
             label49.Name = "label49";
             label49.Size = new Size(100, 23);
             label49.TabIndex = 48;
+            label49.MouseEnter += mouseEnterWall;
             // 
             // label48
             // 
@@ -228,6 +233,7 @@
             label48.Name = "label48";
             label48.Size = new Size(100, 23);
             label48.TabIndex = 47;
+            label48.MouseEnter += mouseEnterWall;
             // 
             // label47
             // 
@@ -236,6 +242,7 @@
             label47.Name = "label47";
             label47.Size = new Size(84, 23);
             label47.TabIndex = 46;
+            label47.MouseEnter += mouseEnterWall;
             // 
             // label46
             // 
@@ -244,6 +251,7 @@
             label46.Name = "label46";
             label46.Size = new Size(100, 23);
             label46.TabIndex = 45;
+            label46.MouseEnter += mouseEnterWall;
             // 
             // label45
             // 
@@ -252,6 +260,7 @@
             label45.Name = "label45";
             label45.Size = new Size(100, 23);
             label45.TabIndex = 44;
+            label45.MouseEnter += mouseEnterWall;
             // 
             // label44
             // 
@@ -260,6 +269,7 @@
             label44.Name = "label44";
             label44.Size = new Size(100, 23);
             label44.TabIndex = 43;
+            label44.MouseEnter += mouseEnterWall;
             // 
             // label43
             // 
@@ -268,6 +278,7 @@
             label43.Name = "label43";
             label43.Size = new Size(100, 23);
             label43.TabIndex = 42;
+            label43.MouseEnter += mouseEnterWall;
             // 
             // label42
             // 
@@ -276,6 +287,7 @@
             label42.Name = "label42";
             label42.Size = new Size(100, 23);
             label42.TabIndex = 41;
+            label42.MouseEnter += mouseEnterWall;
             // 
             // label41
             // 
@@ -284,6 +296,7 @@
             label41.Name = "label41";
             label41.Size = new Size(100, 23);
             label41.TabIndex = 40;
+            label41.MouseEnter += mouseEnterWall;
             // 
             // label40
             // 
@@ -292,6 +305,7 @@
             label40.Name = "label40";
             label40.Size = new Size(48, 23);
             label40.TabIndex = 39;
+            label40.MouseEnter += mouseEnterWall;
             // 
             // label39
             // 
@@ -300,6 +314,7 @@
             label39.Name = "label39";
             label39.Size = new Size(111, 23);
             label39.TabIndex = 38;
+            label39.MouseEnter += mouseEnterWall;
             // 
             // label38
             // 
@@ -308,6 +323,7 @@
             label38.Name = "label38";
             label38.Size = new Size(23, 64);
             label38.TabIndex = 37;
+            label38.MouseEnter += mouseEnterWall;
             // 
             // label37
             // 
@@ -316,6 +332,7 @@
             label37.Name = "label37";
             label37.Size = new Size(23, 85);
             label37.TabIndex = 36;
+            label37.MouseEnter += mouseEnterWall;
             // 
             // label36
             // 
@@ -324,6 +341,7 @@
             label36.Name = "label36";
             label36.Size = new Size(23, 100);
             label36.TabIndex = 35;
+            label36.MouseEnter += mouseEnterWall;
             // 
             // label35
             // 
@@ -332,6 +350,7 @@
             label35.Name = "label35";
             label35.Size = new Size(23, 131);
             label35.TabIndex = 34;
+            label35.MouseEnter += mouseEnterWall;
             // 
             // label34
             // 
@@ -340,6 +359,7 @@
             label34.Name = "label34";
             label34.Size = new Size(23, 116);
             label34.TabIndex = 33;
+            label34.MouseEnter += mouseEnterWall;
             // 
             // label33
             // 
@@ -348,6 +368,7 @@
             label33.Name = "label33";
             label33.Size = new Size(23, 100);
             label33.TabIndex = 32;
+            label33.MouseEnter += mouseEnterWall;
             // 
             // label32
             // 
@@ -356,6 +377,7 @@
             label32.Name = "label32";
             label32.Size = new Size(23, 76);
             label32.TabIndex = 31;
+            label32.MouseEnter += mouseEnterWall;
             // 
             // label31
             // 
@@ -364,6 +386,7 @@
             label31.Name = "label31";
             label31.Size = new Size(23, 112);
             label31.TabIndex = 30;
+            label31.MouseEnter += mouseEnterWall;
             // 
             // label30
             // 
@@ -372,6 +395,7 @@
             label30.Name = "label30";
             label30.Size = new Size(23, 62);
             label30.TabIndex = 29;
+            label30.MouseEnter += mouseEnterWall;
             // 
             // label29
             // 
@@ -380,6 +404,7 @@
             label29.Name = "label29";
             label29.Size = new Size(100, 23);
             label29.TabIndex = 28;
+            label29.MouseEnter += mouseEnterWall;
             // 
             // label28
             // 
@@ -388,6 +413,7 @@
             label28.Name = "label28";
             label28.Size = new Size(100, 23);
             label28.TabIndex = 27;
+            label28.MouseEnter += mouseEnterWall;
             // 
             // label27
             // 
@@ -396,6 +422,7 @@
             label27.Name = "label27";
             label27.Size = new Size(100, 23);
             label27.TabIndex = 26;
+            label27.MouseEnter += mouseEnterWall;
             // 
             // label26
             // 
@@ -404,6 +431,7 @@
             label26.Name = "label26";
             label26.Size = new Size(100, 23);
             label26.TabIndex = 25;
+            label26.MouseEnter += mouseEnterWall;
             // 
             // label25
             // 
@@ -412,6 +440,7 @@
             label25.Name = "label25";
             label25.Size = new Size(188, 23);
             label25.TabIndex = 24;
+            label25.MouseEnter += mouseEnterWall;
             // 
             // label24
             // 
@@ -420,6 +449,7 @@
             label24.Name = "label24";
             label24.Size = new Size(100, 23);
             label24.TabIndex = 23;
+            label24.MouseEnter += mouseEnterWall;
             // 
             // label23
             // 
@@ -428,6 +458,7 @@
             label23.Name = "label23";
             label23.Size = new Size(100, 23);
             label23.TabIndex = 22;
+            label23.MouseEnter += mouseEnterWall;
             // 
             // label22
             // 
@@ -436,6 +467,7 @@
             label22.Name = "label22";
             label22.Size = new Size(23, 100);
             label22.TabIndex = 21;
+            label22.MouseEnter += mouseEnterWall;
             // 
             // label21
             // 
@@ -444,6 +476,7 @@
             label21.Name = "label21";
             label21.Size = new Size(23, 100);
             label21.TabIndex = 20;
+            label21.MouseEnter += mouseEnterWall;
             // 
             // label20
             // 
@@ -452,6 +485,7 @@
             label20.Name = "label20";
             label20.Size = new Size(23, 100);
             label20.TabIndex = 19;
+            label20.MouseEnter += mouseEnterWall;
             // 
             // label19
             // 
@@ -460,6 +494,7 @@
             label19.Name = "label19";
             label19.Size = new Size(23, 100);
             label19.TabIndex = 18;
+            label19.MouseEnter += mouseEnterWall;
             // 
             // label18
             // 
@@ -468,6 +503,7 @@
             label18.Name = "label18";
             label18.Size = new Size(23, 100);
             label18.TabIndex = 17;
+            label18.MouseEnter += mouseEnterWall;
             // 
             // label17
             // 
@@ -476,6 +512,7 @@
             label17.Name = "label17";
             label17.Size = new Size(23, 70);
             label17.TabIndex = 16;
+            label17.MouseEnter += mouseEnterWall;
             // 
             // label16
             // 
@@ -484,6 +521,7 @@
             label16.Name = "label16";
             label16.Size = new Size(23, 100);
             label16.TabIndex = 15;
+            label16.MouseEnter += mouseEnterWall;
             // 
             // label15
             // 
@@ -492,6 +530,7 @@
             label15.Name = "label15";
             label15.Size = new Size(23, 100);
             label15.TabIndex = 14;
+            label15.MouseEnter += mouseEnterWall;
             // 
             // label14
             // 
@@ -500,6 +539,7 @@
             label14.Name = "label14";
             label14.Size = new Size(23, 77);
             label14.TabIndex = 13;
+            label14.MouseEnter += mouseEnterWall;
             // 
             // label13
             // 
@@ -508,6 +548,7 @@
             label13.Name = "label13";
             label13.Size = new Size(23, 93);
             label13.TabIndex = 12;
+            label13.MouseEnter += mouseEnterWall;
             // 
             // label12
             // 
@@ -516,6 +557,7 @@
             label12.Name = "label12";
             label12.Size = new Size(23, 100);
             label12.TabIndex = 11;
+            label12.MouseEnter += mouseEnterWall;
             // 
             // label11
             // 
@@ -524,6 +566,7 @@
             label11.Name = "label11";
             label11.Size = new Size(23, 100);
             label11.TabIndex = 10;
+            label11.MouseEnter += mouseEnterWall;
             // 
             // label10
             // 
@@ -532,6 +575,7 @@
             label10.Name = "label10";
             label10.Size = new Size(23, 100);
             label10.TabIndex = 9;
+            label10.MouseEnter += mouseEnterWall;
             // 
             // label9
             // 
@@ -540,6 +584,7 @@
             label9.Name = "label9";
             label9.Size = new Size(23, 100);
             label9.TabIndex = 8;
+            label9.MouseEnter += mouseEnterWall;
             // 
             // label8
             // 
@@ -548,6 +593,7 @@
             label8.Name = "label8";
             label8.Size = new Size(120, 23);
             label8.TabIndex = 7;
+            label8.MouseEnter += mouseEnterWall;
             // 
             // label7
             // 
@@ -556,6 +602,7 @@
             label7.Name = "label7";
             label7.Size = new Size(100, 23);
             label7.TabIndex = 6;
+            label7.MouseEnter += mouseEnterWall;
             // 
             // label6
             // 
@@ -564,6 +611,7 @@
             label6.Name = "label6";
             label6.Size = new Size(100, 23);
             label6.TabIndex = 5;
+            label6.MouseEnter += mouseEnterWall;
             // 
             // label5
             // 
@@ -572,6 +620,7 @@
             label5.Name = "label5";
             label5.Size = new Size(100, 23);
             label5.TabIndex = 4;
+            label5.MouseEnter += mouseEnterWall;
             // 
             // label4
             // 
@@ -580,6 +629,7 @@
             label4.Name = "label4";
             label4.Size = new Size(100, 23);
             label4.TabIndex = 3;
+            label4.MouseEnter += mouseEnterWall;
             // 
             // label3
             // 
@@ -588,6 +638,7 @@
             label3.Name = "label3";
             label3.Size = new Size(23, 100);
             label3.TabIndex = 2;
+            label3.MouseEnter += mouseEnterWall;
             // 
             // label2
             // 
@@ -596,6 +647,7 @@
             label2.Name = "label2";
             label2.Size = new Size(109, 23);
             label2.TabIndex = 1;
+            label2.MouseEnter += mouseEnterWall;
             // 
             // label1
             // 
@@ -604,15 +656,7 @@
             label1.Name = "label1";
             label1.Size = new Size(100, 23);
             label1.TabIndex = 0;
-            // 
-            // label56
-            // 
-            label56.AutoSize = true;
-            label56.Location = new Point(2, 2);
-            label56.Name = "label56";
-            label56.Size = new Size(50, 17);
-            label56.TabIndex = 56;
-            label56.Text = "Start";
+            label1.MouseEnter += mouseEnterWall;
             // 
             // Form1
             // 
@@ -688,6 +732,5 @@
         private Label label52;
         private Label label55;
         private Label finshLable;
-        private Label label56;
     }
 }
