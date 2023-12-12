@@ -5,9 +5,9 @@ namespace mazeGame
     public partial class Form1 : Form
         
     {
-        System.Media.SoundPlayer StartUpSound = new System.Media.SoundPlayer(@"C:\Windows\Media\ding.wav");
-        System.Media.SoundPlayer WallSound = new System.Media.SoundPlayer(@"C:\Windows\Media\chord.wav");
-        System.Media.SoundPlayer FinshSound = new System.Media.SoundPlayer(@"C:\Windows\Media\chimes.wav");
+        System.Media.SoundPlayer StartUpSound = new System.Media.SoundPlayer(@".\sounds\ding.wav");
+        System.Media.SoundPlayer WallSound = new System.Media.SoundPlayer(@".\sounds\chord.wav");
+        System.Media.SoundPlayer FinshSound = new System.Media.SoundPlayer(@".\sounds\chimes.wav");
         public Form1()
         {
             InitializeComponent();

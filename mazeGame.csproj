@@ -8,4 +8,22 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="sounds\chimes.wav" />
+    <None Remove="sounds\chord.wav" />
+    <None Remove="sounds\ding.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="sounds\chimes.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sounds\chord.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sounds\ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
